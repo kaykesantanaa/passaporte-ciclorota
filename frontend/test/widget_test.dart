@@ -8,11 +8,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:frontend/main.dart';
+import 'package:frontend/main.dart'; // Garante que ele importe seu app principal
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
+    // NOTA: Precisamos garantir que o Firebase seja inicializado para o teste
+    WidgetsFlutterBinding.ensureInitialized(); 
+    
+    // Você pode precisar mockar o Firebase aqui, mas por enquanto, 
+    // vamos apenas construir o app.
     await tester.pumpWidget(const MyApp());
 
     // Verify that our counter starts at 0.
