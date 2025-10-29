@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "962102431951",
-    "project_id": "passaporte-trilha-ma",
-    "storage_bucket": "passaporte-trilha-ma.firebasestorage.app"
+    "project_number": "715692837129",
+    "project_id": "passaporte-ciclorota",
+    "storage_bucket": "passaporte-ciclorota.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:962102431951:android:98f7d83f58e6eaa46227ba",
+        "mobilesdk_app_id": "1:715692837129:android:bda385f4c0dba86eef2bd8",
         "android_client_info": {
           "package_name": "com.example.frontend"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDUMNf2h-GVKzEPZeb2rP5opzw8WKQ9Zv0"
+          "current_key": "AIzaSyBh00z3Ze--u0GMXBbFiCONxPs-TJMbjNQ"
         }
       ],
       "services": {
